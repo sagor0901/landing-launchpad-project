@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for font style  */
+
+.raleway-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* for font style  */
+
+/* header and navbar design start */
+
+.navbar-title-section {
+    width: 90%;
+    height: 700px;
+    /* border: 2px red solid; */
+    margin: 0 auto;
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.nav-title-btn{
+    width: 80%;
+    display: flex;
+     /* border: 2px red solid; */
+     justify-content: space-between;
+     margin: 0 auto;
+     padding: 30px;
+}
+
+.nav-title-btn h3{
+    color:#4E47FF ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.title-btn-container{
+    /* width: 70%; */
+    /* border: 2px red solid; */
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 130px;
+}
+
+.title-btn-container h1{
+    font-size: 64px;
+}
+
+.title-btn-container button{
+    margin-top: 30px;
+}
+
+/* header and navbar design end */
+
+/* shared style start  */
+
+.btn-style{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* shared style end  */
+
+
+/* main section design start here  */
+/* main section design end here */
