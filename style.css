@@ -322,7 +322,43 @@ textarea {
 
 /* form section end here */
 
-
-
-
 /* main section design end here */
+
+/* footer section start  */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    border: 2px wheat;
+    background-color: #e9e4e4a2;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+}
+.footer-container ul{
+
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.logo-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-container ul li {
+    list-style: none;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+    color:#8987A1 ;
+    font-weight: 400;
+}
+/* footer section end */
