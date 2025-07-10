@@ -15,6 +15,14 @@
         "wdth" 100;
 }
 
+
+.raleway-header {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* for font style  */
 
 /* header and navbar design start */
@@ -33,8 +41,8 @@
 .nav-title-btn {
     width: 80%;
     display: flex;
-    
-    
+
+
     justify-content: space-between;
     margin: 0 auto;
     padding: 30px;
@@ -51,7 +59,7 @@
     align-content: center;
     text-align: center;
     padding: 50px;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .title-btn-container h1 {
@@ -75,9 +83,10 @@
     background-color: #4E47FF;
     font-size: 0.9rem;
     color: white;
-    
+
 }
-.btn-style:hover{
+
+.btn-style:hover {
     background-color: rgba(136, 221, 66, 0.548);
     color: #4d47ffbd;
     font-weight: bold;
@@ -90,22 +99,28 @@
 }
 
 
-.users-number{
+.users-number {
     text-align: center;
-    
+
 }
 
 
-.productive-user-number{
-    font-size:80px;
+.productive-user-number {
+    font-size: 80px;
     color: #4E47FF;
 }
 
-.productive-user-description{
+.productive-user-description {
     font-size: 15px;
     font-weight: 500;
     color: #25243296;
 }
+
+
+.title-avatar h5 {
+    font-size: 25px;
+}
+
 
 /* shared style end  */
 
@@ -120,7 +135,7 @@
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .second-title-img-contianer {
@@ -149,18 +164,18 @@
 
 /* <!-- Productive Users Section start --> */
 
-.productive-user-container{
+.productive-user-container {
     width: 80%;
-    
+
     margin: 0 auto;
     margin-top: 150px;
     padding: 40px;
-    background-color:#706bfd28 ;
+    background-color: #706bfd28;
     border-radius: 15px;
-    
+
 }
 
-.productive-user-title{
+.productive-user-title {
     text-align: center;
     font-size: 30px;
     padding: 10px;
@@ -169,7 +184,7 @@
 }
 
 
-.rating{
+.rating {
     display: flex;
     justify-content: space-around;
 }
@@ -178,6 +193,70 @@
 
 
 /* <!-- Productive Users Section end --> */
+
+
+/* feedback section start here  */
+.feedback-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px;
+
+}
+
+.feedback-container h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 123px
+}
+
+.profile-container {
+    display: flex;
+    gap: 10px;
+}
+
+.profile-container img {
+    border-radius: 100px;
+}
+
+.rating-details-container {
+    width: fit-content;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+
+.title-avatar {
+    margin-top: 20px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+.rating-box {
+    width: 360px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgb(196, 194, 194);
+}
+
+.feedbacker-name {
+    font-weight: 600;
+}
+
+.date {
+    font-weight: 400;
+}
+
+/* feedback section end here  */
 
 
 /* main section design end here */
